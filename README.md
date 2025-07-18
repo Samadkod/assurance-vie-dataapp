@@ -62,6 +62,7 @@ Toutes les données sont **fictives** et **générées à des fins pédagogiques
 ## 📁 Structure du projet
 
 📂 assurance-vie-dataapp
+
 ├── app_spirica.py ← code de l'application
 
 ├── clients_spirica.csv ← données simulées
