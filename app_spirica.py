@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Configuration de la page
 st.set_page_config(
-    page_title="SPIRICA - Pilotage Data Assurance Vie",
+    page_title="Pilotage Data Assurance Vie",
     layout="wide",
     page_icon="📊"
 )
