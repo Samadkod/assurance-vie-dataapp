@@ -70,19 +70,34 @@ with col8:
     st.metric("Doublons exacts", df.duplicated().sum())
 
 # Section : Recommandations
-st.header("💡 Recommandations : Clients à surveiller ou relancer")
-df_alert = df[(df["Montant_Placé (€)"] < 5000) | (df["Age"] > 75)]
-df_display = df_alert[["ClientID", "Nom", "Prénom", "Age", "Montant_Placé (€)", "Statut_Contrat"]]
+st.header("💡 Recommandations : Clients à surveiller ou valoriser")
 
-# Fonction de mise en forme conditionnelle ligne par ligne
-def style_reco(row):
-    age_color = 'background-color: orange; font-weight: bold' if row["Age"] > 75 else ''
-    montant_color = 'background-color: red; font-weight: bold' if row["Montant_Placé (€)"] < 5000 else ''
-    return [
-        '', '', '', age_color, montant_color, ''
-    ]
+df_alert = df.copy()
 
-st.dataframe(df_display.style.apply(style_reco, axis=1))
+# Extraction des colonnes utiles
+df_alert = df_alert[["ClientID", "Nom", "Prénom", "Age", "Ancienneté (années)", "Montant_Placé (€)", "Statut_Contrat"]]
+
+# Filtrage des cas intéressants
+df_alert = df_alert[
+    ((df_alert["Montant_Placé (€)"] < 10000) & (df_alert["Statut_Contrat"] == "En attente")) |
+    ((df_alert["Age"] > 75) & (df_alert["Statut_Contrat"] == "Actif")) |
+    ((df_alert["Ancienneté (années)"] > 10) & (df_alert["Montant_Placé (€)"] < 20000))
+]
+
+# Fonction métier de mise en forme
+def highlight_recommandation(row):
+    if row["Montant_Placé (€)"] < 10000 and row["Statut_Contrat"] == "En attente":
+        return ['background-color: #f8d7da; font-weight: bold'] * len(row)  # Rouge clair
+    elif row["Age"] > 75 and row["Statut_Contrat"] == "Actif":
+        return ['background-color: #fff3cd; font-weight: bold'] * len(row)  # Orange clair
+    elif row["Ancienneté (années)"] > 10 and row["Montant_Placé (€)"] < 20000:
+        return ['background-color: #e2e3ff; font-weight: bold'] * len(row)  # Jaune clair
+    else:
+        return [''] * len(row)
+
+# Affichage stylé
+st.dataframe(df_alert.style.apply(highlight_recommandation, axis=1))
+
 
 
 # Section : Export
