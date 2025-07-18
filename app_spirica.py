@@ -35,50 +35,46 @@ Toutes les données sont fictives et simulées à des fins pédagogiques.
 """)
 
 # Chargement des données
->>>>>>> 6cc0cc2ee0ecada6c4e32de4bd7322d5eb816c5e
 @st.cache_data
 def load_data():
     return pd.read_csv("clients_spirica.csv")
 
 df = load_data()
-
-<<<<<<< HEAD
 # Section 1 : KPIs
 st.subheader("🔹 Indicateurs Clés")
-=======
+
 # Appliquer la feuille de style CSS
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Section : KPIs
 st.header("🔹 Indicateurs Clés")
->>>>>>> 6cc0cc2ee0ecada6c4e32de4bd7322d5eb816c5e
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Nombre de clients", len(df))
 col2.metric("Encours total (€)", f"{df['Montant_Placé (€)'].sum():,.0f}")
 col3.metric("Montant moyen (€)", f"{df['Montant_Placé (€)'].mean():,.0f}")
 col4.metric("Âge moyen", f"{df['Age'].mean():.1f} ans")
 
-<<<<<<< HEAD
+
 # Section 2 : Visualisation interactive
 st.subheader("📈 Répartition des montants placés")
-=======
+
 # Section : Visualisation
 st.header("📈 Répartition des montants placés")
->>>>>>> 6cc0cc2ee0ecada6c4e32de4bd7322d5eb816c5e
+
 fig1 = px.histogram(df, x="Montant_Placé (€)", nbins=30, color="Statut_Contrat",
                     title="Distribution des montants par statut de contrat")
 st.plotly_chart(fig1, use_container_width=True)
 
-<<<<<<< HEAD
+
 # Section 3 : Analyse par équipe
 st.subheader("👥 Analyse par responsable")
 selected_team = st.selectbox("Sélectionner une équipe :", df["Responsable"].unique())
-=======
+
 # Section : Analyse par équipe
 st.header("👥 Analyse par responsable")
 selected_team = st.selectbox("Sélectionner une équipe métier :", df["Responsable"].unique())
->>>>>>> 6cc0cc2ee0ecada6c4e32de4bd7322d5eb816c5e
+
 filtered_df = df[df["Responsable"] == selected_team]
 
 col5, col6 = st.columns(2)
@@ -87,7 +83,6 @@ with col5:
     st.metric(label="Encours (€)", value=f"{filtered_df['Montant_Placé (€)'].sum():,.0f}")
 
 with col6:
-<<<<<<< HEAD
     st.write("Clients par statut")
     fig2 = px.pie(filtered_df, names="Statut_Contrat", title="Répartition des contrats")
     st.plotly_chart(fig2, use_container_width=True)
@@ -110,7 +105,7 @@ st.dataframe(df_alert[["ClientID", "Nom", "Prénom", "Age", "Montant_Placé (€
 
 st.markdown("---")
 st.markdown("Projet personnel réalisé par **Samadou KODON** pour démontrer l’intérêt d’un pilotage des données dans le secteur de l’assurance vie.")
-=======
+
     fig2 = px.pie(filtered_df, names="Statut_Contrat", title="Répartition des contrats")
     st.plotly_chart(fig2, use_container_width=True)
 
@@ -168,4 +163,3 @@ st.download_button("📥 Télécharger la liste des clients à surveiller",
 st.markdown("---")
 st.markdown('<div class="highlight-box">📌 Relancer en priorité les clients "En attente" avec faible montant.</div>', unsafe_allow_html=True)
 st.markdown("Projet réalisé par **Samadou KODON** – [Portfolio](https://samadkod.github.io/) | [GitHub](https://github.com/Samadkod)")
->>>>>>> 6cc0cc2ee0ecada6c4e32de4bd7322d5eb816c5e
