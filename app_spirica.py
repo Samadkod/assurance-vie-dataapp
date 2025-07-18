@@ -11,7 +11,7 @@ st.set_page_config(
 
 # Logo Crédit Agricole (SPIRICA = filiale)
 st.image(
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Credit_Agricole.svg/512px-Credit_Agricole.svg.png",
+    "https://tse4.mm.bing.net/th/id/OIP.llmZzjIqzfKZqwtyLToVPwAAAA?pid=Api&P=0&h=180",
     width=100
 )
 
