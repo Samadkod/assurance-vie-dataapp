@@ -63,10 +63,15 @@ Toutes les données sont **fictives** et **générées à des fins pédagogiques
 
 📂 assurance-vie-dataapp
 ├── app_spirica.py ← code de l'application
+
 ├── clients_spirica.csv ← données simulées
+
 ├── styles.css ← style personnalisé
+
 ├── .streamlit/
+
 │ └── config.toml ← thème Streamlit
+
 └── README.md
 
 ---
