@@ -36,7 +36,7 @@ Projet personnel développé dans le cadre de ma candidature à un poste de **Da
 
 ## 🧠 Cas métier simulé
 
-Cette application simule une mission au sein d’une direction Actuariat / Data chez **SPIRICA** ou tout acteur de l’assurance.  
+Cette application simule une mission au sein d’une direction Actuariat ou tout acteur de l’assurance.  
 Elle intègre une logique métier simple :
 
 - 🔴 **À relancer** : Contrat en attente + faible montant
