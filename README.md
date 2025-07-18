@@ -23,7 +23,7 @@ Projet personnel développé dans le cadre de ma candidature à un poste de **Da
 
 <table>
   <tr>
-    <td><img src="https://samadkod.github.io/assets/assurance_kpi.png" width="400"></td>
+    <td><img src="https://github.com/Samadkod/assurance-vie-dataapp/blob/main/kpis.png" width="400"></td>
     <td><img src="https://github.com/Samadkod/assurance-vie-dataapp/commit/795263bca79e32bbb5787a8741fb3284b99cfce2" width="400"></td>
   </tr>
   <tr>
