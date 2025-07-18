@@ -16,9 +16,9 @@ st.image(
 )
 
 # Titre et contexte
-st.title("📊 SPIRICA - Tableau de bord Assurance Vie")
+st.title("📊 SCA - Tableau de bord Assurance Vie")
 st.markdown("""
-Bienvenue dans cette application interactive de pilotage des données, développée dans le cadre d’un projet personnel inspiré des problématiques métier d’un Data Analyst en assurance vie chez SPIRICA.
+Bienvenue dans cette application interactive de pilotage des données, développée dans le cadre d’un projet personnel inspiré des problématiques métier d’un Data Analyst en assurance vie.
 
 ### 🎯 Objectifs du projet :
 - Suivre les indicateurs clés de gestion (encours, âges, contrats)
@@ -109,5 +109,5 @@ st.download_button("📥 Télécharger la liste des clients à surveiller",
 
 # Footer
 st.markdown("---")
-st.markdown('<div class="highlight-box">📌 Relancer en priorité les clients "En attente" avec faible montant.</div>', unsafe_allow_html=True)
+st.markdown('<div class="highlight-box">💡 Relancer en priorité les clients "En attente" avec faible montant.</div>', unsafe_allow_html=True)
 st.markdown("Projet réalisé par **Samadou KODON** – [Portfolio](https://samadkod.github.io/) | [GitHub](https://github.com/Samadkod)")
