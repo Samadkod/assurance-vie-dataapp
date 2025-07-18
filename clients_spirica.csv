@@ -1,0 +1,201 @@
+ClientID,Nom,Prénom,Age,Sexe,Ancienneté (années),Montant_Placé (€),Responsable,Statut_Contrat
+1,Richard,Paul,29,F,7,51428,Equipe C,Actif
+2,Bernard,Alice,84,F,13,132374,Equipe B,Actif
+3,Petit,Sophie,72,H,4,132127,Equipe B,Actif
+4,Richard,Paul,43,F,4,112317,Equipe C,Actif
+5,Durand,Luc,28,F,6,140789,Equipe C,Actif
+6,Petit,Luc,59,F,19,128449,Equipe C,Clôturé
+7,Petit,Luc,73,H,12,29699,Equipe B,Actif
+8,Richard,Luc,41,F,7,74686,Equipe C,Actif
+9,Dupont,Luc,68,F,10,68661,Equipe C,Actif
+10,Durand,Paul,52,H,19,45247,Equipe A,Actif
+11,Richard,Paul,54,F,7,148820,Equipe A,Actif
+12,Durand,Marie,53,F,3,106113,Equipe B,Clôturé
+13,Durand,Jean,70,H,13,5621,Equipe C,Clôturé
+14,Petit,Emma,77,F,13,147106,Equipe C,Clôturé
+15,Bernard,Luc,30,H,18,137198,Equipe A,Actif
+16,Durand,Alice,59,H,8,137194,Equipe B,Actif
+17,Robert,Emma,84,F,9,19030,Equipe A,Actif
+18,Petit,Paul,65,F,7,83838,Equipe A,Actif
+19,Dupont,Alice,61,F,1,85717,Equipe A,Clôturé
+20,Bernard,Alice,48,F,3,187730,Equipe A,Actif
+21,Robert,Alice,53,H,13,39638,Equipe C,Actif
+22,Robert,Marie,73,F,17,68067,Equipe C,Actif
+23,Dupont,Paul,70,H,1,119033,Equipe A,Actif
+24,Bernard,Alice,77,F,6,106977,Equipe B,Actif
+25,Petit,Luc,55,F,6,89869,Equipe B,Actif
+26,Martin,Sophie,59,F,12,106186,Equipe B,Actif
+27,Bernard,Alice,84,H,13,35674,Equipe B,Clôturé
+28,Dupont,Marie,57,F,13,167926,Equipe A,Clôturé
+29,Robert,Emma,76,F,15,47271,Equipe C,Actif
+30,Petit,Paul,45,F,16,74688,Equipe B,Actif
+31,Bernard,Marie,56,F,11,170590,Equipe A,Actif
+32,Martin,Alice,47,H,5,112076,Equipe B,Actif
+33,Martin,Paul,57,F,4,142339,Equipe B,Actif
+34,Durand,Sophie,27,H,3,2062,Equipe A,Actif
+35,Durand,Alice,42,H,19,51448,Equipe C,Actif
+36,Richard,Marie,49,H,18,96462,Equipe C,Actif
+37,Dupont,Jean,66,H,15,138301,Equipe A,Actif
+38,Bernard,Luc,55,H,9,188865,Equipe C,Actif
+39,Bernard,Emma,78,H,17,48915,Equipe A,En attente
+40,Richard,Marie,82,F,14,5632,Equipe A,Clôturé
+41,Robert,Paul,27,H,15,105592,Equipe A,Actif
+42,Robert,Alice,64,H,1,135668,Equipe C,Clôturé
+43,Richard,Luc,70,H,3,110779,Equipe A,Actif
+44,Robert,Alice,48,F,16,138240,Equipe B,Clôturé
+45,Durand,Paul,74,F,11,109099,Equipe C,Clôturé
+46,Bernard,Alice,56,H,12,8561,Equipe C,Actif
+47,Richard,Jean,71,F,10,83152,Equipe C,Actif
+48,Bernard,Luc,46,H,16,126036,Equipe C,Actif
+49,Martin,Luc,47,H,8,125049,Equipe B,Actif
+50,Durand,Paul,26,F,6,27734,Equipe C,Actif
+51,Petit,Emma,51,H,12,138443,Equipe C,Actif
+52,Durand,Jean,66,F,8,27069,Equipe A,Actif
+53,Richard,Marie,26,F,4,13910,Equipe C,Clôturé
+54,Petit,Alice,50,H,8,74479,Equipe B,En attente
+55,Martin,Sophie,41,H,18,82264,Equipe B,Actif
+56,Richard,Alice,64,F,5,24275,Equipe B,Actif
+57,Dupont,Alice,57,H,9,73274,Equipe B,Actif
+58,Bernard,Marie,33,H,4,101776,Equipe C,Actif
+59,Martin,Alice,67,H,17,192076,Equipe C,En attente
+60,Bernard,Jean,78,F,9,195053,Equipe B,Actif
+61,Robert,Jean,72,F,1,186625,Equipe B,Actif
+62,Dupont,Luc,63,H,13,49447,Equipe C,Actif
+63,Dupont,Paul,53,F,16,166601,Equipe B,Actif
+64,Martin,Emma,66,F,13,127394,Equipe A,Actif
+65,Dupont,Sophie,79,F,14,76703,Equipe B,Clôturé
+66,Petit,Alice,50,F,3,77090,Equipe B,Actif
+67,Dupont,Alice,59,F,6,18260,Equipe A,Actif
+68,Bernard,Marie,74,H,18,113581,Equipe A,Actif
+69,Bernard,Paul,49,H,19,4812,Equipe C,En attente
+70,Richard,Jean,48,H,5,160096,Equipe C,Clôturé
+71,Bernard,Sophie,37,F,15,190728,Equipe A,Actif
+72,Richard,Luc,84,F,2,117148,Equipe A,Actif
+73,Bernard,Jean,82,H,10,159357,Equipe C,Actif
+74,Petit,Paul,31,F,18,117421,Equipe B,Actif
+75,Richard,Emma,81,H,13,2605,Equipe A,En attente
+76,Durand,Luc,60,H,5,73303,Equipe C,Actif
+77,Robert,Emma,69,H,1,159211,Equipe B,Actif
+78,Martin,Marie,44,F,1,188210,Equipe A,Actif
+79,Bernard,Marie,25,F,18,77125,Equipe B,Actif
+80,Dupont,Alice,32,H,15,145990,Equipe C,Actif
+81,Bernard,Emma,70,H,17,159518,Equipe A,Clôturé
+82,Dupont,Paul,40,H,11,125040,Equipe B,Actif
+83,Robert,Sophie,38,H,17,145118,Equipe A,Actif
+84,Robert,Luc,36,F,13,156890,Equipe B,Actif
+85,Robert,Jean,75,F,1,5324,Equipe C,Actif
+86,Dupont,Paul,47,H,2,77323,Equipe C,Actif
+87,Bernard,Paul,39,H,9,10111,Equipe A,Actif
+88,Robert,Marie,52,F,3,170182,Equipe B,Clôturé
+89,Petit,Emma,58,F,1,17389,Equipe A,Actif
+90,Richard,Alice,26,H,16,123177,Equipe A,Actif
+91,Dupont,Alice,56,H,6,42427,Equipe B,Actif
+92,Dupont,Luc,47,H,17,160818,Equipe B,Actif
+93,Bernard,Marie,46,F,5,123883,Equipe B,En attente
+94,Dupont,Paul,75,F,5,132189,Equipe C,Clôturé
+95,Dupont,Sophie,49,F,6,126808,Equipe A,Actif
+96,Robert,Marie,82,H,3,113221,Equipe A,Actif
+97,Bernard,Luc,46,H,5,14234,Equipe C,Actif
+98,Robert,Luc,82,F,5,54441,Equipe B,Actif
+99,Richard,Marie,82,F,10,1846,Equipe C,Actif
+100,Richard,Luc,46,H,10,11954,Equipe C,Actif
+101,Robert,Marie,73,F,19,80239,Equipe C,Actif
+102,Richard,Jean,76,F,17,47514,Equipe A,Actif
+103,Bernard,Marie,66,H,14,89236,Equipe C,Clôturé
+104,Martin,Emma,30,F,9,98579,Equipe A,Actif
+105,Robert,Marie,39,H,14,138541,Equipe A,Actif
+106,Petit,Luc,78,H,1,162177,Equipe A,Clôturé
+107,Petit,Emma,67,H,19,43101,Equipe B,Actif
+108,Dupont,Luc,84,H,13,65323,Equipe A,Actif
+109,Richard,Alice,61,H,13,92922,Equipe A,Actif
+110,Petit,Alice,57,H,4,190139,Equipe B,Actif
+111,Dupont,Emma,32,H,1,181448,Equipe A,Clôturé
+112,Martin,Jean,77,F,17,177659,Equipe C,Clôturé
+113,Bernard,Alice,84,H,8,169048,Equipe C,Actif
+114,Bernard,Marie,68,H,2,128534,Equipe A,Actif
+115,Bernard,Luc,68,F,8,68584,Equipe B,Actif
+116,Petit,Alice,29,F,7,105537,Equipe C,Actif
+117,Martin,Alice,63,F,2,79477,Equipe B,Actif
+118,Petit,Jean,28,H,3,43533,Equipe B,En attente
+119,Richard,Emma,30,F,18,2828,Equipe C,Actif
+120,Petit,Emma,69,H,12,2917,Equipe B,En attente
+121,Martin,Paul,56,H,1,21618,Equipe C,Actif
+122,Martin,Jean,76,H,12,33254,Equipe B,Actif
+123,Richard,Marie,54,H,5,106292,Equipe C,Actif
+124,Martin,Emma,71,F,17,48362,Equipe A,Clôturé
+125,Martin,Luc,59,F,16,21128,Equipe C,Clôturé
+126,Bernard,Jean,79,H,15,124781,Equipe C,Clôturé
+127,Richard,Alice,64,H,15,191455,Equipe C,Actif
+128,Durand,Luc,76,H,5,66545,Equipe C,Actif
+129,Durand,Luc,40,F,14,83180,Equipe B,Clôturé
+130,Martin,Alice,37,H,2,88958,Equipe A,Actif
+131,Durand,Jean,74,H,11,141937,Equipe C,Actif
+132,Durand,Alice,84,F,19,134291,Equipe B,Actif
+133,Martin,Paul,66,F,7,40809,Equipe A,En attente
+134,Durand,Luc,54,H,6,117748,Equipe A,En attente
+135,Petit,Sophie,43,F,2,6287,Equipe A,Actif
+136,Dupont,Sophie,41,F,6,166459,Equipe A,Clôturé
+137,Richard,Marie,80,H,18,9512,Equipe C,En attente
+138,Dupont,Emma,43,F,2,133414,Equipe C,Actif
+139,Martin,Alice,52,H,18,195148,Equipe B,Actif
+140,Bernard,Alice,82,F,15,109872,Equipe B,En attente
+141,Richard,Marie,79,H,19,151288,Equipe B,Actif
+142,Martin,Marie,50,H,2,94070,Equipe A,Actif
+143,Bernard,Marie,61,H,6,80767,Equipe A,Actif
+144,Dupont,Luc,50,F,1,98829,Equipe C,En attente
+145,Martin,Paul,77,H,15,158686,Equipe A,En attente
+146,Richard,Alice,47,F,10,168330,Equipe A,En attente
+147,Richard,Luc,33,H,19,43078,Equipe A,Actif
+148,Robert,Marie,36,H,17,107288,Equipe B,Clôturé
+149,Petit,Alice,77,F,5,84524,Equipe B,Clôturé
+150,Durand,Luc,25,H,4,13219,Equipe C,Actif
+151,Bernard,Paul,82,H,10,1235,Equipe A,Clôturé
+152,Robert,Luc,82,F,17,43929,Equipe A,Actif
+153,Durand,Paul,25,H,10,128309,Equipe C,Actif
+154,Durand,Marie,71,H,17,68444,Equipe A,Actif
+155,Martin,Paul,58,H,5,140639,Equipe A,Actif
+156,Durand,Alice,56,H,2,102834,Equipe B,Actif
+157,Petit,Marie,78,F,6,197513,Equipe C,Actif
+158,Richard,Alice,72,F,2,85555,Equipe C,Actif
+159,Robert,Sophie,49,H,13,74698,Equipe C,Clôturé
+160,Durand,Jean,64,F,11,125450,Equipe C,Actif
+161,Martin,Paul,69,H,11,137487,Equipe B,Actif
+162,Petit,Jean,77,F,16,168231,Equipe B,Actif
+163,Dupont,Jean,25,H,11,44925,Equipe A,Clôturé
+164,Richard,Paul,40,H,19,138023,Equipe A,Actif
+165,Richard,Marie,63,H,15,88388,Equipe A,Actif
+166,Robert,Sophie,29,H,16,9007,Equipe A,Clôturé
+167,Richard,Alice,46,H,11,173904,Equipe B,Actif
+168,Durand,Luc,53,H,16,59596,Equipe C,Actif
+169,Martin,Alice,79,F,8,122101,Equipe B,Actif
+170,Richard,Luc,27,H,4,162595,Equipe A,Clôturé
+171,Richard,Alice,36,F,8,89861,Equipe B,Actif
+172,Dupont,Paul,50,H,4,87740,Equipe C,Clôturé
+173,Dupont,Sophie,40,F,3,16524,Equipe C,Actif
+174,Bernard,Luc,75,F,3,151354,Equipe B,En attente
+175,Petit,Emma,61,F,18,156002,Equipe B,Clôturé
+176,Durand,Marie,46,H,19,132149,Equipe B,En attente
+177,Richard,Alice,81,H,19,126501,Equipe A,Actif
+178,Richard,Alice,53,F,5,21611,Equipe B,Clôturé
+179,Martin,Luc,38,H,18,149056,Equipe B,Actif
+180,Bernard,Marie,52,F,10,15060,Equipe B,Actif
+181,Petit,Marie,29,H,6,44303,Equipe C,Actif
+182,Bernard,Paul,71,F,1,191279,Equipe C,Clôturé
+183,Robert,Emma,73,F,5,161359,Equipe A,En attente
+184,Petit,Paul,54,H,9,40711,Equipe A,Clôturé
+185,Richard,Paul,70,F,12,144026,Equipe C,Actif
+186,Richard,Paul,76,H,14,74340,Equipe C,Actif
+187,Petit,Paul,29,F,2,103974,Equipe C,Clôturé
+188,Richard,Paul,36,F,17,150646,Equipe B,Actif
+189,Durand,Sophie,40,H,14,141256,Equipe B,Actif
+190,Petit,Marie,50,H,13,151168,Equipe C,Actif
+191,Bernard,Paul,50,H,9,68728,Equipe B,Actif
+192,Petit,Marie,72,F,15,166088,Equipe B,Actif
+193,Richard,Marie,45,H,15,12246,Equipe A,Actif
+194,Durand,Jean,63,F,11,177630,Equipe C,Actif
+195,Durand,Sophie,60,F,16,150453,Equipe C,Actif
+196,Robert,Paul,57,H,17,128796,Equipe B,En attente
+197,Bernard,Alice,54,H,4,168527,Equipe C,Actif
+198,Dupont,Luc,61,F,1,93263,Equipe A,Actif
+199,Dupont,Emma,47,F,8,136090,Equipe A,Actif
+200,Petit,Alice,82,H,17,12302,Equipe A,Actif
