@@ -61,3 +61,32 @@ Toutes les données sont **fictives** et **générées à des fins pédagogiques
 
 ## 📁 Structure du projet
 
+📂 assurance-vie-dataapp
+├── app_spirica.py ← code de l'application
+├── clients_spirica.csv ← données simulées
+├── styles.css ← style personnalisé
+├── .streamlit/
+│ └── config.toml ← thème Streamlit
+└── README.md
+
+---
+
+## 📥 Fonctionnalités clés
+
+✅ KPIs interactifs  
+✅ Visualisation filtrable par équipe  
+✅ Contrôle qualité intégré  
+✅ Recommandations conditionnelles (couleurs, export CSV)  
+✅ Déploiement en ligne (Streamlit Cloud)
+
+---
+
+## 🙋‍♂️ À propos
+
+👤 Réalisé par **Samadou KODON**  
+🌐 [Portfolio](https://samadkod.github.io) | 🧠 [GitHub](https://github.com/Samadkod) | 💼 [LinkedIn](https://www.linkedin.com/in/skodon)
+
+> *Ce projet fait partie de ma démarche active pour intégrer une équipe Data dans l’assurance ou la finance. N'hésitez pas à me contacter !*
+
+---
+
