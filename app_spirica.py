@@ -3,9 +3,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="SPIRICA - Pilotage Assurance Vie", layout="wide")
+st.set_page_config(page_title="SCA - Pilotage Assurance Vie", layout="wide")
 
-st.title("📊 SPIRICA - Tableau de bord Data Assurance Vie")
+st.title("📊 SCA - Tableau de bord Data Assurance Vie")
 st.markdown("Application de visualisation, contrôle qualité et recommandations client.")
 
 @st.cache_data
