@@ -1,18 +1,12 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cc0cc2ee0ecada6c4e32de4bd7322d5eb816c5e
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-<<<<<<< HEAD
 st.set_page_config(page_title="SPIRICA - Pilotage Assurance Vie", layout="wide")
 
 st.title("📊 SPIRICA - Tableau de bord Data Assurance Vie")
 st.markdown("Application de visualisation, contrôle qualité et recommandations client.")
 
-=======
 # Configuration de la page
 st.set_page_config(
     page_title="SPIRICA - Pilotage Data Assurance Vie",
