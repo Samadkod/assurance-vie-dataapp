@@ -72,7 +72,18 @@ with col8:
 # Section : Recommandations
 st.header("💡 Recommandations : Clients à surveiller ou relancer")
 df_alert = df[(df["Montant_Placé (€)"] < 5000) | (df["Age"] > 75)]
-st.dataframe(df_alert[["ClientID", "Nom", "Prénom", "Age", "Montant_Placé (€)", "Statut_Contrat"]])
+df_display = df_alert[["ClientID", "Nom", "Prénom", "Age", "Montant_Placé (€)", "Statut_Contrat"]]
+
+# Fonction de mise en forme conditionnelle ligne par ligne
+def style_reco(row):
+    age_color = 'background-color: orange; font-weight: bold' if row["Age"] > 75 else ''
+    montant_color = 'background-color: red; font-weight: bold' if row["Montant_Placé (€)"] < 5000 else ''
+    return [
+        '', '', '', age_color, montant_color, ''
+    ]
+
+st.dataframe(df_display.style.apply(style_reco, axis=1))
+
 
 # Section : Export
 st.download_button("📥 Télécharger la liste des clients à surveiller", 
