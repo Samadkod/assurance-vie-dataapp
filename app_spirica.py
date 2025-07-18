@@ -3,7 +3,17 @@ import pandas as pd
 import plotly.express as px
 
 # Configuration de la page
-st.set_page_config(page_title="SPIRICA - Pilotage Data Assurance Vie", layout="wide")
+st.set_page_config(
+    page_title="SPIRICA - Pilotage Data Assurance Vie",
+    layout="wide",
+    page_icon="📊"
+)
+
+# 💡 Ajout du logo fictif Crédit Agricole (SPIRICA = filiale)
+st.image(
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Credit_Agricole.svg/512px-Credit_Agricole.svg.png",
+    width=100
+)
 
 # Bandeau de présentation
 st.title("📊 SPIRICA - Tableau de bord Assurance Vie")
@@ -25,6 +35,10 @@ def load_data():
     return pd.read_csv("clients_spirica.csv")
 
 df = load_data()
+
+# Appliquer la feuille de style CSS
+with open("styles.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Section : KPIs
 st.header("🔹 Indicateurs Clés")
@@ -98,8 +112,6 @@ def highlight_recommandation(row):
 # Affichage stylé
 st.dataframe(df_alert.style.apply(highlight_recommandation, axis=1))
 
-
-
 # Section : Export
 st.download_button("📥 Télécharger la liste des clients à surveiller", 
                    data=df_alert.to_csv(index=False), 
@@ -108,4 +120,5 @@ st.download_button("📥 Télécharger la liste des clients à surveiller",
 
 # Pied de page
 st.markdown("---")
+st.markdown('<div class="highlight-box">📌 Relancer en priorité les clients "En attente" avec faible montant.</div>', unsafe_allow_html=True)
 st.markdown("Projet réalisé par **Samadou KODON** – [Portfolio](https://samadkod.github.io/) | [GitHub](https://github.com/Samadkod)")
