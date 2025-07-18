@@ -59,7 +59,11 @@ st.header("✅ Contrôle qualité")
 col7, col8 = st.columns(2)
 with col7:
     st.write("🔍 Valeurs manquantes")
-    st.dataframe(df.isnull().sum().reset_index(names="Nombre de valeurs manquantes").rename(columns={"index": "Colonne"}))
+    st.dataframe(
+        df.isnull().sum()
+        .reset_index()
+        .rename(columns={"index": "Colonne", 0: "Nombre de valeurs manquantes"})
+    )
 
 with col8:
     st.write("🧬 Doublons détectés")
